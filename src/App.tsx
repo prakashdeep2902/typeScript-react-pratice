@@ -4,6 +4,7 @@ import InterFaces from "./components/InterFaces";
 import InterFacesGen from "./components/InterFacess";
 import Object from "./components/Object";
 import Oops from "./components/Oops";
+import Webreq from "./components/Webreq";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       {/* <InterFacesGen /> */}
 
       <Genrics />
+      <Webreq />
     </>
   );
 };
