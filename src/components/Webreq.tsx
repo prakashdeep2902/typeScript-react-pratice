@@ -13,10 +13,6 @@ const Webreq = () => {
       const url = `https://jsonplaceholder.typicode.com/posts`;
       const response: AxiosResponse<user> = await axios.get(url);
       console.log(response.data);
-      console.log(response.config);
-      console.log(response.headers);
-      console.log(response.status);
-      console.log(response.statusText);
     } catch (error: any) {
       if (axios.isAxiosError(error)) {
         console.log("axios Error", error.message);
